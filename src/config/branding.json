@@ -1,74 +1,117 @@
 {
   "default": {
-    "siteName": "Anandh Unni Experiments",
-    "tagline": "Master Video Editing, Graphics & AI Visual Creation",
+    "siteName": "Kinder Prime International",
+    "tagline": "Nurturing Young Minds Through Fun & Digital Learning",
 
-    "primaryColor": "#0f172a",
-    "theme": "darkModern",
+    "primaryColor": "#f59e0b",
+    "theme": "kinderPlayful",
 
-    "logo": "/auelogo.jpg",
-    "students": "200",
+    "logo": "/kinder-logo.jpg",
+    "students": "150+",
 
     "colors": {
-      "primary": "#0f172a",
-      "accent": "#22c55e"
+      "primary": "#f59e0b",
+      "accent": "black"
     },
 
     "hero": {
-      "title": "Create Stunning Visuals with Editing, Graphics & AI",
-      "subtitle": "Learn video editing, motion graphics, and AI-powered design techniques to build content that stands out. From beginner to advanced workflows, everything you need is here.",
+      "title": "Online Preschool for Pre KG, LKG & UKG",
+      "subtitle": "Give your child a strong foundation with interactive online classes, creative activities, and expert guidance — all from the comfort of home.",
       "image": "/hero.png",
 
-      "bunnyVideoId": "replace-with-your-video-id",
-      "poster": "/hero-poster.jpg"
+      "bunnyVideoId": "91302432-7053-465a-aebe-609335db2be3",
+      "poster": "/hero.png"
     },
 
     "preview": {
-      "badge": "Creative Skill Academy",
-      "title": "If you can imagine it, you can create it.",
-      "highlight": "Master Editing, Graphics & AI Tools",
-      "description": "Our courses focus on real-world creative workflows — from editing cinematic videos to designing high-quality graphics and using AI tools to speed up your process. Learn by building actual projects, not just theory.",
+      "badge": "Early Learning Academy",
+      "title": "A joyful start to your child’s learning journey",
+      "highlight": "Interactive Online Preschool Experience",
+      "description": "Kinder Prime International offers structured and engaging online classes for Pre KG, LKG, and UKG students. Our program focuses on developing creativity, communication, and foundational skills through fun activities and guided learning.",
 
-      "bunnyVideoId": "replace-with-your-video-id",
+      "bunnyVideoId": "91302432-7053-465a-aebe-609335db2be3",
       "libraryId": "your-library-id",
-      "poster": "/preview-poster.jpg",
+      "poster": "/kinder-preview.jpg",
 
       "videoUrl": "https://youtube.com",
 
       "perks": [
-        { "value": "PROJECT", "label": "Real Project-Based Learning" },
-        { "value": "AI POWER", "label": "AI-Driven Creative Workflows" }
+        { "value": "NO DONATION", "label": "No Hidden Charges" },
+        { "value": "FUN LEARNING", "label": "Creative Activity-Based Learning" }
       ]
     },
 
+    "pricingInfo": {
+      "title": "Affordable Preschool Program",
+      "items": [
+        "Course Fee: ₹17,000/year (including GST)",
+        "Offer Fee: ₹15,000/year (Early Booking)",
+        "Admission Fee: ₹2,000 to reserve seat",
+        "No Donation / Vehicle / Extra Charges",
+        "Books & Workbooks: Approx ₹2,000"
+      ]
+    },
+
+    "schedule": {
+      "title": "Class Schedule",
+      "details": [
+        "Classes: Monday to Friday",
+        "Two sessions per day (40 mins each)",
+        "Time Window: 11:00 AM – 3:00 PM IST",
+        "LKG: 11:00 AM – 12:30 PM",
+        "UKG: 1:00 PM – 2:30 PM"
+      ]
+    },
+
+    "features": [
+      "Live interactive classes",
+      "Creative skill development activities",
+      "Structured Montessori-based learning",
+      "Trained and experienced teachers",
+      "Eligible for any syllabus after completion"
+    ],
+
+    "team": [
+      {
+        "name": "Pooja Raj",
+        "role": "Director",
+        "qualification": "BA, Montessori TTC, Learning Disability, Nutrition & Dietetics"
+      },
+      {
+        "name": "Jesna Siyad",
+        "role": "Principal",
+        "qualification": "M.A, B.Ed, B.Sc, Montessori TTC, Abacus Training"
+      }
+    ],
+
     "reviews": [
       {
-        "name": "Arjun Nair",
-        "role": "Content Creator",
+        "name": "Aisha Rahman",
+        "role": "Parent",
         "rating": 5,
-        "text": "I learned professional video editing and started creating content that actually stands out. The AI tools section is a game changer."
+        "text": "Very engaging classes. My child enjoys learning every day and has improved a lot in communication."
       },
       {
-        "name": "Fathima Shirin",
-        "role": "Freelance Designer",
+        "name": "Nikhil Menon",
+        "role": "Parent",
         "rating": 5,
-        "text": "Finally understood how to combine design + editing + AI. My freelance income improved a lot after this."
+        "text": "Affordable and structured. Teachers are very supportive and caring."
       },
       {
-        "name": "Nikhil Raj",
-        "role": "YouTuber",
+        "name": "Fathima Basheer",
+        "role": "Parent",
         "rating": 4,
-        "text": "Clear, practical, and straight to the point. Helped me level up my video quality and workflow."
+        "text": "Great online preschool option with fun activities and good learning balance."
       }
     ],
 
     "contact": {
-      "email": "support@anandhunni.com",
+      "email": "support@kinderprime.com",
       "phone": "+91 90000 00000",
       "whatsapp": "+91 90000 00000",
       "address": "Kerala, India",
-      "supportName": "Creative Support Team",
-      "image": "/support-dark.jpg"
+      "supportName": "Kinder Prime Support Team",
+      "image": "/support-light.jpg"
     }
   }
 }

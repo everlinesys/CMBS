@@ -108,7 +108,7 @@ export default function Hero() {
             </a>
 
             {/* Avatars */}
-            <div className="flex -space-x-3 overflow-hidden">
+            {/* <div className="flex -space-x-3 overflow-hidden">
               {avatarLetters.map((letter, i) => (
                 <div
                   key={i}
@@ -125,7 +125,7 @@ export default function Hero() {
               <div className="pl-5 pt-3 text-xs font-bold opacity-70 uppercase tracking-tighter">
                 +{brand.students} Students
               </div>
-            </div>
+            </div> */}
 
           </div>
         </div>

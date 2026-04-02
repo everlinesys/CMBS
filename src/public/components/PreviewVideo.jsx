@@ -20,11 +20,11 @@ export default function PreviewVideo() {
 
         {/* 🎥 VIDEO — CLEAN */}
         <div className="w-full">
-          {/* <VideoPlayer
+           <VideoPlayer
             videoId={videoId}
             poster={poster}
-          /> */}
-          <img src="/hero.png" alt="" />
+          /> 
+          {/* <img src="/hero.png" alt="" /> */}
         </div>
 
         {/* 📝 TEXT — KEPT */}

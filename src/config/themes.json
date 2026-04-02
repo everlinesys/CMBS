@@ -152,5 +152,66 @@
       "soft": "bg-white border border-gray-200",
       "glass": "bg-white border border-gray-200"
     }
+  },
+  "kinderPlayful": {
+    "layout": {
+      "page": "bg-[#FFF7ED]",
+      "container": "bg-[#FFF7ED] text-[#1F2937] max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+      "section": "py-12 sm:py-16 lg:py-20",
+      "sectionTight": "py-8 sm:py-10",
+      "grid": "grid gap-6 sm:gap-8 lg:gap-10",
+      "grid2": "grid grid-cols-1 md:grid-cols-2 gap-8 items-center",
+      "grid3": "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6",
+      "panel": "bg-white border border-[#FDE68A] shadow-sm p-6",
+      "header": "bg-white/80 backdrop-blur border-b border-[#FDE68A] sticky top-0 z-50",
+      "footer": "bg-white border-t border-[#FDE68A] mt-16"
+    },
+
+    "shape": {
+      "radius": "rounded-2xl",
+      "cardRadius": "rounded-3xl",
+      "buttonRadius": "rounded-full",
+      "inputRadius": "rounded-xl"
+    },
+
+    "text": {
+      "title": "font-bold tracking-tight text-[#1F2937] text-2xl sm:text-3xl lg:text-4xl",
+      "heroTitle": "font-extrabold text-[#1F2937] text-3xl sm:text-4xl lg:text-5xl leading-tight",
+      "subtitle": "text-[#374151] font-medium text-base sm:text-lg",
+      "body": "text-[#6B7280] text-sm sm:text-base",
+      "label": "text-[#9CA3AF] text-xs font-semibold uppercase tracking-wide"
+    },
+
+    "button": {
+      "primary": "bg-[#F59E0B] hover:bg-[#D97706] text-white shadow-md px-6 py-3",
+      "secondary": "bg-white border border-[#FCD34D] text-[#92400E] hover:bg-[#FEF3C7] px-5 py-2.5",
+      "accent": "bg-[#10B981] hover:bg-[#059669] text-white px-6 py-3",
+      "danger": "bg-red-500 hover:bg-red-600 text-white px-5 py-2.5"
+    },
+
+    "input": {
+      "base": "bg-white border border-[#FCD34D] text-[#1F2937] placeholder:text-[#9CA3AF] focus:border-[#F59E0B] outline-none px-4 py-2.5 w-full"
+    },
+
+    "badge": {
+      "base": "bg-[#FEF3C7] text-[#92400E] border border-[#FCD34D] px-3 py-1 text-xs"
+    },
+
+    "card": {
+      "soft": "bg-white border border-[#FDE68A] shadow-sm p-6",
+      "glass": "bg-white/80 backdrop-blur border border-[#FDE68A] p-6"
+    },
+
+    "heroLayout": {
+      "wrapper": "grid grid-cols-1 lg:grid-cols-2 gap-10 items-center",
+      "content": "space-y-5",
+      "image": "w-full max-w-md mx-auto lg:mx-0"
+    },
+
+    "ctaSection": {
+      "wrapper": "bg-[#FDE68A]/40 border border-[#FCD34D] rounded-3xl p-8 text-center space-y-4",
+      "title": "text-xl sm:text-2xl font-bold text-[#92400E]",
+      "subtitle": "text-[#78350F]"
+    }
   }
 }
