@@ -97,7 +97,7 @@ export default function Hero() {
             <a
               href="#courses"
               className={`group inline-flex items-center justify-center px-8 py-4 font-black text-sm tracking-wide transition-all duration-300 active:scale-95 ${brand.theme.button.primary} ${brand.theme.shape?.radius || ""}`}
-              style={{ background: brand.colors.accent }}
+              style={{ background: brand.colors.primary, color: brand.colors.accent }}
             >
               <span className="flex items-center gap-2" >
                 Browse Courses

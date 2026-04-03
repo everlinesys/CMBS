@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState,useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import api from "../../shared/api";
 import { useBranding } from "../../shared/hooks/useBranding";
@@ -9,7 +9,9 @@ export default function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [popup, setPopup] = useState(false);
-
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const handleLogin = async () => {
     try {
       const { data } = await api.post("/auth/login", {

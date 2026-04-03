@@ -24,6 +24,8 @@ import AdminStudents from "../admin/pages/Students";
 import EditCourse from "../admin/pages/EditCourse";
 import CourseCurriculum from "../admin/pages/CourseCurriculum";
 import PageNotFound from "../public/pages/PageNotFound";
+import Terms from "../public/pages/Terms";
+import Privacy from "../public/pages/Privacy";
 
 export const router = createBrowserRouter([
     {
@@ -34,9 +36,12 @@ export const router = createBrowserRouter([
             { path: "login", element: <Login /> },
             { path: "register", element: <Register /> },
             { path: "courses", element: <Courses /> },
+            { path: "pricing", element: <Courses /> },
             { path: "contact", element: <Contact /> },
             { path: "courses/:courseId", element: <CourseDetails /> },
             { path: "course/:courseId", element: <CourseDetails /> },
+            { path: "terms", element: <Terms /> },
+            { path: "privacy", element: <Privacy /> },
 
 
         ],

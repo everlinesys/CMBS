@@ -1,9 +1,12 @@
-import { useState } from "react";
+import { useState,useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import api from "../../shared/api";
 import { useBranding } from "../../shared/hooks/useBranding";
 export default function Register() {
   const navigate = useNavigate();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const brand = useBranding();
 
   const [form, setForm] = useState({
@@ -21,6 +24,7 @@ export default function Register() {
       [e.target.name]: e.target.value,
     });
   };
+
 
   const handleRegister = async (e) => {
     e.preventDefault();
