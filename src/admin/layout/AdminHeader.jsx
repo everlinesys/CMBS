@@ -76,11 +76,12 @@ export default function AdminHeader({ onMenuClick }) {
           </button>
 
           {open && (
-            <div className="absolute right-0 mt-3 w-44 bg-white border rounded-lg shadow-lg z-50">
+            <div className="absolute right-0 mt-3 w-44 bg-white/80 text-black border rounded-lg shadow-lg z-50">
               <button
-                onClick={() => navigate("/admin/profile")}
+                onClick={() => navigate("/admin/settings")}
                 className="w-full text-left px-4 py-2 hover:bg-gray-100 text-sm"
                >
+                <MdPerson size={18} className="inline mr-2" />
                 Profile
               </button>
 

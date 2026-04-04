@@ -34,9 +34,9 @@ export default function Courses() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50" >
+    <div className="min-h-screen bg-gray-50 " >
       <header
-        className="py-20 text-center text-white px-6"
+        className="py-20 text-center text-white px-6 md:px-16"
         style={{ backgroundColor: primary  }}
       >
         <h1 className="text-2xl md:text-4xl font-bold mb-4">
@@ -50,7 +50,7 @@ export default function Courses() {
       </header>
 
       {/* --- COURSES GRID --- */}
-      <main className="max-w-7xl mx-auto px-6 py-16">
+      <main className="max-w-7xl mx-auto px-6 py-16 md:px-16">
 
         {courses.length === 0 ? (
           <div className="text-center text-gray-500">

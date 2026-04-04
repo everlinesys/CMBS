@@ -15,7 +15,7 @@ export default function Team() {
           </p>
 
           <h2 className={brand.theme.text?.title}>
-            Meet the Team Behind Kinder Prime
+            Meet the Team Behind {brand.siteName}
           </h2>
 
           <p className={brand.theme.text?.body}>

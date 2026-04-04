@@ -10,33 +10,33 @@ export default function PublicHeader() {
   const theme = themes?.[brand.theme] || themes.darkModern;
 
   return (
-    <header className={`${theme.layout.header} shadow-sm md:px-16`}>
+    <header className={` shadow-sm md:px-16`} style={{ backgroundColor: "#eeecec" || brand.colors.accent , color:  "#13205f" ||brand.colors.primary  }}>
       <div className="max-w-7xl mx-auto px-3 h-16 flex items-center justify-between">
 
         {/* Logo + Small Title */}
         <Link to="/" className="flex items-center gap-3">
-          
-          {/* {brand.logo ? (
+
+          {brand.logo ? (
             <img
               src={brand.logo}
               alt={brand.siteName}
-              className="h-10 w-auto object-contain"
+              className="h-30 w-auto object-contain"
             />
           ) : (
             <div className=" h-10 w-10 bg-gray-200 rounded-lg flex items-center justify-center text-sm font-bold">
               {brand.siteName?.charAt(0)}
             </div>
-          )} */}
+          )}
 
           {/* Small Title */}
-          <span className={`text-sm font-semibold  text-white`}>
+          {/* <span className={`text-sm font-semibold  text-white`}>
             {brand.siteName}
-          </span>
+          </span> */}
 
         </Link>
 
         {/* Navigation */}
-        <nav className={`hidden md:flex gap-6 text-sm ${theme.text.body}`}>
+        <nav className={`hidden md:flex gap-6 text-sm `}>
           <NavLink to="/courses" className="hover:opacity-80 transition">
             Courses
           </NavLink>
@@ -53,7 +53,7 @@ export default function PublicHeader() {
             <>
               <Link
                 to="/login"
-                className={`${theme.text.body} hover:opacity-80`}
+                className={` hover:opacity-80`}
               >
                 Login
               </Link>
@@ -61,7 +61,7 @@ export default function PublicHeader() {
               <Link
                 to="/register"
                 className={`${theme.button.primary} px-4 py-2 bg-[#F59E0B] ${theme.shape.buttonRadius}`}
-                style={{ background: brand.colors?.primary || "#F59E0B" , color:  brand.colors?.accent || "#000000" }}
+                style={{ background: brand.colors?.primary || "#F59E0B", color: brand.colors?.accent || "#000000" }}
               >
                 Register
               </Link>
